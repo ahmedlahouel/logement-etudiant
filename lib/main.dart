@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'screens/publier_screen.dart';
-
+import 'data/annonces_test.dart';
+import 'widgets/annonce_card.dart';
+import 'screens/acceuil_screen.dart';
 void main() {
   runApp(const LogementApp());
 }
@@ -19,8 +20,7 @@ class LogementApp extends StatelessWidget {
           seedColor: const Color(0xFF1565C0), // change it to your color
         ),
       ),
-      // Temporary home: opens the form directly for testing
-      home: const PublierScreen(),
+      home: const AccueilScreen(),
     );
   }
 }

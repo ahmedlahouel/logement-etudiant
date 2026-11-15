@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'data/annonces_test.dart';
-import 'widgets/annonce_card.dart';
+import 'screens/publier_screen.dart';
 
 void main() {
   runApp(const LogementApp());
@@ -20,16 +19,8 @@ class LogementApp extends StatelessWidget {
           seedColor: const Color(0xFF1565C0), // change it to your color
         ),
       ),
-      // Temporary home: shows the cards directly (no AccueilScreen needed)
-      home: Scaffold(
-        appBar: AppBar(title: const Text('Logement Étudiant')),
-        body: ListView.builder(
-          itemCount: annoncesTest.length, // <- name of your list in annonces_test.dart
-          itemBuilder: (context, index) {
-            return AnnonceCard(annonce: annoncesTest[index]);
-          },
-        ),
-      ),
+      // Temporary home: opens the form directly for testing
+      home: const PublierScreen(),
     );
   }
 }

@@ -13,6 +13,10 @@ Tous les écrans sont reliés entre eux et l'annonce touchée dans la liste est 
 
 De gauche à droite : Accueil, Détail, Publier une annonce, Favoris.
 
+## Journal IA
+
+Nous avons utilisé une seule conversation avec l'IA, partagée entre les deux membres du binôme : [Voir la conversation](https://claude.ai/chat/6787eb77-d656-4c6c-b39b-beaad20e1634)
+
 ### Schéma de navigation
 
 ```
